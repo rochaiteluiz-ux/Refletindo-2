@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Missão: Futuro da IA</title>
+</head>
+<body>
+    <div class="app-shell">
+        <header class="topo">
+            <h1>Missão: Futuro da IA</h1>
+            <p>Responda as perguntas e veja como sua história com inteligência artificial se forma.</p>
+        </header>
 
+        <main class="card">
+            <!-- Container que agrupa a aplicação para facilitar o controle de visibilidade -->
+            <div id="conteudo-missao">
+                <section class="questao">
+                    <p class="texto-pergunta"></p>
+                </section>
+                <section class="botoes"></section>
+            </div>
+
+            <section class="barra-progresso">
+                <div class="barra-preenchida"></div>
+            </section>
+
+            <section class="resultado-escondido">
+                <h2>Fim da missão</h2>
+                <p class="texto-resultado"></p>
+                <button id="botao-reiniciar">Refazer missão</button>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
